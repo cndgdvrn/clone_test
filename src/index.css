@@ -1,0 +1,19 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  body,html {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    @apply antialiased;
+  }
+}
